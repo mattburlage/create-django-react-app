@@ -1,8 +1,18 @@
 # This script creates a default Django backed React App
+#
+# Author: mattburlage (github.com/mattburlage)
+#
 # This is based largely on the following walkthrough:
 # https://medium.com/@dakota.lillie/django-react-jwt-authentication-5015ee00ef9a
 
+import sys
 import os
+
+if sys.argv[1]:
+    project_name = sys.argv[1]
+else:
+    print("What is the desired name of the project?")
+    project_name = input()
 
 try:
     import django
@@ -17,11 +27,6 @@ except ModuleNotFoundError as e:
     print(e)
     os.system('pip install pipenv')
     os.system('cls')
-
-
-
-print("What is the name of the project?")
-project_name = input()
 
 # Build Django and React apps
 os.system(f"django-admin startproject {project_name}")
