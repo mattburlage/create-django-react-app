@@ -27,4 +27,4 @@ In production:
 2. Host your Django app using your preferred solution.
 3. Map a static path `/app/` to the build folder. `/app/build/` 
 
-I use PythonAnywhere, which makes this setup very easy to use.
+I use PythonAnywhere, which makes this setup very easy to use, but you should be able to adapt this to other server configurations/solutions.
