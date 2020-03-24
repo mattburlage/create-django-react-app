@@ -17,5 +17,3 @@ Side effects: This will install Django and pipenv globally.
 1. Place the python script in the directory that you'd like to create the app.
 2. Run `python django-react-template.py name-of-project`.
 3. The script then runs through installing all needed dependencies and files.
-4. Configure database if not using sqlite. (optional)
-5. Run `pipenv run python manage.py migrate` from the project folder.
