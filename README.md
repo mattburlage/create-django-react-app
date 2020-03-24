@@ -1,4 +1,4 @@
-# django-react-template
+# django-react-template.py
 A simple script to create a Django-backed React app, all in one.
 
 # Credit
