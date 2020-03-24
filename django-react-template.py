@@ -8,9 +8,9 @@
 import sys
 import os
 
-if sys.argv[1]:
+try:
     project_name = sys.argv[1]
-else:
+except IndexError:
     print("What is the desired name of the project?")
     project_name = input()
 
@@ -459,3 +459,16 @@ class App extends Component {
 export default App;
 """
 write_file(f"{os.getcwd()}\\src\\App.js", 'w+', app_js_text)
+
+# Write App.css
+app_css_text = """
+.App {
+  margin-left: 20px;
+}
+
+input {
+  display: block;
+  margin: 5px 0 5px;
+}
+"""
+write_file(f"{os.getcwd()}\\src\\App.css", 'w+', app_css_text)
