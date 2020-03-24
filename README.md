@@ -17,3 +17,14 @@ Side effects: This will install Django and pipenv globally.
 1. Place the python script in the directory that you'd like to create the app.
 2. Run `python django-react-template.py name-of-project`.
 3. The script then runs through installing all needed dependencies and files.
+
+# How this setup works
+In development:
+You can run the django development server and the react development server simultaneously to test the app during development.
+
+In production:
+1. Build your react app in place. `npm run build`
+2. Host your Django app using your preferred solution.
+3. Map a static path `/app/` to the build folder. `/app/build/` 
+
+I use PythonAnywhere, which makes this setup very easy to use.
