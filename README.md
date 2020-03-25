@@ -5,7 +5,7 @@ A simple script to create a Django-backed React app, all in one.
 This script is based almost 100% on this walkthrough:
 https://medium.com/@dakota.lillie/django-react-jwt-authentication-5015ee00ef9a
 
-The only difference is adding the React app to the project instead of needing a separate front end.  You then just need to set your webserver to serve the app folder as static, and you're good to go.
+The only difference is adding the React app to the project instead of needing a separate front end.  You then just need to set your webserver to serve the app build folder as static, and you're good to go.
 
 # What it Does
 This script creates a Django project, creates a React app within in (in the /app directory) and then adds basic JWT code to enable login, logout, and signup.  
