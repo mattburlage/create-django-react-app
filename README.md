@@ -1,6 +1,9 @@
 # create-django-react-app
 A simple script to create a Django-backed React app, all in one.
 
+# Install via PyPi
+`pip install create-django-react-app`
+
 # Credit
 This script is based almost 100% on this walkthrough:
 https://medium.com/@dakota.lillie/django-react-jwt-authentication-5015ee00ef9a
