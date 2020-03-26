@@ -14,8 +14,8 @@ This script creates a Django project, creates a React app within in (in the /app
 Requirements: Python and Node must already be installed.
 Side effects: This will install Django and pipenv globally.
 
-1. Place the python script in the directory that you'd like to create the app.
-2. Run `python django-react-template.py name-of-project`.
+1. Install via PyPi: `pip install create-django-react-app` 
+2. Run `create-django-react-app name-of-project`
 3. The script then runs through installing all needed dependencies and files.
 
 # How this setup works
