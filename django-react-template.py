@@ -472,3 +472,6 @@ input {
 }
 """
 write_file(f"{os.getcwd()}\\src\\App.css", 'w+', app_css_text)
+
+shutil.rmtree(f"{os.getcwd()}\\.git")
+
